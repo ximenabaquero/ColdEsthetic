@@ -56,9 +56,18 @@ body {
 }
 
 .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary-color);
+}
+
+.nav-logo {
+    width: 40px;
+    height: auto;
+    object-fit: contain;
 }
 
 .nav-menu {
@@ -117,6 +126,25 @@ body {
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.hero-logo {
+    margin-bottom: 2rem;
+}
+
+.logo-image {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.silhouette-image {
+    width: 450px;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    opacity: 0.9;
 }
 
 .hero-title {
